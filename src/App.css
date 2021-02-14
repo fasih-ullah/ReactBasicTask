@@ -13,6 +13,29 @@
   }
 }
 
+.title {
+  font-size: 30px;
+    text-shadow: 1px 1px px;
+    font-weight: 300;
+    margin: 9px;
+}
+
+.search-input {
+  margin: 4px;
+    padding: 4px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+}
+
+.search-button {
+   color: white;
+    background-color: #5a5a80;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +49,77 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.flex-start {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.list-element {
+  box-shadow: 3px 3px 3px #9bace4;
+    margin: 5px 10px;
+    border-radius: 5px;
+    background-color: #9bace4;
+    width: 70%;
+    padding: 10px;
+}
+
+.parent-element {
+  flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.file-type-badge {
+  background: white;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.fork-user-element {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-overflow-ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input:focus, textarea:focus {
+  border: none;
+  outline-width: 0px;
+  border: 1px solid #efefef;
+}
+
+.content {
+  text-align: left;
+    margin: 20px;
+    border: 1px solid #5151514d;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
 }
 
 @keyframes App-logo-spin {
